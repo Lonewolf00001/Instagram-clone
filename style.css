@@ -1,0 +1,11 @@
+:root{
+    --bg:#080A0D;
+    --fs:13.5px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    background: var(--bg);
+    color: #fff;
+    font-size: var(--fs)
+}
