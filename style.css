@@ -1,16 +1,48 @@
 @font-face{
     font-family: myfont;
-    src: url(Billabong.ttf)
+    src: url(/fonts/Billabong.ttf)
 }
 :root{
     --bg:#080A0D;
     --fs:13.5px;
 }
 *{
-    margin: 0;
+    margin: 2px;
     padding: 0;
     background: var(--bg);
     color: #fff;
     font-size: var(--fs);
+    font-family: sans-serif;
+}
+header{
+    height: 5%;
+    display: grid;  
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+
+    grid-gap: 10px;
+    border-radius: 20px;
+}
+
+
+.title{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    font-size: 22px;
     font-family: myfont;
+    padding-left: 4px;
+    margin: 2px
+    
+}
+.noti{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 25px;
+    margin: 2px 2px 0 0
+}
+.noti a img {
+    width: 25px;
+    margin: 2px;
+    overflow: hidden;
+    color: #fff;
+    
 }
