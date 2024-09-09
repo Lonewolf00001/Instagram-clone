@@ -51,13 +51,11 @@ header{
 }
 aside{
     border: 4px dotted red;
-    grid-row-start: 2;
-    grid-row-end: 4;
+    grid-row: 2 / 4;
 }
 main{
     border: 4px dotted blue;
-    grid-row-start: 4;
-    grid-row-end: 16
+    grid-row: 4 / 16;
 }
 footer{
     border: 4px dotted green;
