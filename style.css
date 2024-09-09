@@ -7,18 +7,21 @@
     --fs:13.5px;
 }
 *{
-    margin: 2px;
+    margin: 0 2px 0 2px;
     padding: 0;
     background: var(--bg);
     color: #fff;
     font-size: var(--fs);
     font-family: sans-serif;
 }
+body{
+    display: grid;
+    height: 100vh;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+}
 header{
-    height: 5%;
     display: grid;  
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
     grid-gap: 10px;
     border-radius: 20px;
 }
@@ -45,4 +48,19 @@ header{
     overflow: hidden;
     color: #fff;
     
+}
+aside{
+    border: 4px dotted red;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+main{
+    border: 4px dotted blue;
+    grid-row-start: 4;
+    grid-row-end: 16
+}
+footer{
+    border: 4px dotted green;
+    position: sticky;
+    bottom: 0;
 }
