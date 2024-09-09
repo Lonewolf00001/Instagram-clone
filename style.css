@@ -1,3 +1,7 @@
+@font-face{
+    font-family: myfont;
+    src: url(Billabong.ttf)
+}
 :root{
     --bg:#080A0D;
     --fs:13.5px;
@@ -7,5 +11,6 @@
     padding: 0;
     background: var(--bg);
     color: #fff;
-    font-size: var(--fs)
+    font-size: var(--fs);
+    font-family: myfont;
 }
