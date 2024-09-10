@@ -52,14 +52,16 @@ header{
 }
 aside{
     border: 4px dotted red;
-    grid-row: 2 / 4;
+    height: 68px;
 }
 main{
     border: 4px dotted blue;
-    grid-row: 4 / 16;
+    height: 3000px;
 }
 footer{
     border: 4px dotted green;
     position: sticky;
     bottom: 0;
+    height: 34px;
+    
 }
