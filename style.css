@@ -1,5 +1,5 @@
 @font-face{
-    font-family: myfont;
+font-family: myfont;
     src: url(./fonts/Billabong.ttf)
 }
 :root{
@@ -32,6 +32,7 @@ header{
     grid-column-end: 5;
     font-size: 22px;
     font-family: myfont;
+    letter-spacing: 2px;
     padding-left: 4px;
     margin: 2px
     
