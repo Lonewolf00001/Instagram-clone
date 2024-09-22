@@ -59,9 +59,17 @@ main{
     height: 3000px;
 }
 footer{
-    border: 4px dotted green;
+    border-top: 0.1px solid white;
     position: sticky;
     bottom: 0;
     height: 34px;
-    
+    display: grid;
+    grid-template-columns : 1fr 1fr 1fr 1fr 1fr;
+    grid-gap:25px
+}
+footer img{
+    width: 25px;
+    margin: 4px;
+    transform: translateX(10px);
+    padding: 2px 0 2px 0;
 }
